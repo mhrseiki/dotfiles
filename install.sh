@@ -37,7 +37,7 @@ git clone https://github.com/mhrseiki/dotfiles.git $HOME/Development/dotfiles
 cd $HOME/Development/dotfiles || exit 1
 
 # Stow Personal Configs
-stow -t ~ zsh wezterm zed git
+stow -t ~ zsh wezterm zed git btop
 
 echo "Installation Complete."
 zsh
