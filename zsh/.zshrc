@@ -7,6 +7,7 @@ fi
 
 source $ZSH/oh-my-zsh.sh
 
+alias lg="lazygit"
 alias ls="eza --icons=auto"
 
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme

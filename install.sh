@@ -25,7 +25,7 @@ brew install --cask wezterm zen zed
 
 # Install Essentials
 brew install zsh zsh-autosuggestions zsh-syntax-highlighting stow git curl
-brew install eza zoxide btop fastfetch tmux
+brew install eza zoxide btop fastfetch tmux lazygit
 
 # Install Development Tools
 brew install ruby lua luarocks luajit rustup openjdk@21
