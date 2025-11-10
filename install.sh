@@ -28,7 +28,7 @@ brew install zsh zsh-autosuggestions zsh-syntax-highlighting stow git curl
 brew install eza zoxide btop fastfetch
 
 # Install Development Tools
-brew install ruby
+brew install ruby lua luarocks luajit
 
 # Install ZSH Theme
 brew install powerlevel10k
