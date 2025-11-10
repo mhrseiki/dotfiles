@@ -4,6 +4,7 @@ eval "$(zoxide init zsh --cmd cd)"
 HISTFILE="$HOME/.zhistory"
 SAVEHIST=1000
 HISTSIZE=999
+HOMEBREW_DOWNLOAD_CONCURRENCY=auto
 
 setopt share_history
 setopt hist_expire_dups_first
