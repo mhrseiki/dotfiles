@@ -27,6 +27,9 @@ brew install --cask wezterm zen zed
 brew install zsh zsh-autosuggestions zsh-syntax-highlighting stow git curl
 brew install eza zoxide btop fastfetch
 
+# Install Development Tools
+brew install ruby
+
 # Install ZSH Theme
 brew install powerlevel10k
 
