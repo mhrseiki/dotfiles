@@ -28,13 +28,16 @@ brew install zsh zsh-autosuggestions zsh-syntax-highlighting stow git curl
 brew install eza zoxide btop fastfetch
 
 # Install Development Tools
-brew install ruby lua luarocks luajit rustup
+brew install ruby lua luarocks luajit rustup openjdk@21
 
 # Install ZSH Theme
 brew install powerlevel10k
 
 # Rustup
 rustup default stable
+
+# Java Symlink
+sudo ln -sfn /opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-21.jdk
 
 # Clone Dotfiles
 git clone https://github.com/mhrseiki/dotfiles.git $HOME/Development/dotfiles
