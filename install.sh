@@ -28,10 +28,13 @@ brew install zsh zsh-autosuggestions zsh-syntax-highlighting stow git curl
 brew install eza zoxide btop fastfetch
 
 # Install Development Tools
-brew install ruby lua luarocks luajit
+brew install ruby lua luarocks luajit rustup
 
 # Install ZSH Theme
 brew install powerlevel10k
+
+# Rustup
+rustup default stable
 
 # Clone Dotfiles
 git clone https://github.com/mhrseiki/dotfiles.git $HOME/Development/dotfiles
