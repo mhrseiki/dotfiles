@@ -1,0 +1,14 @@
+[core]
+    editor = zed
+[user]
+	name = seiki
+	email = 241476304+mhrseiki@users.noreply.github.com
+[init]
+    defaultBranch = main
+[color]
+    status = auto
+    diff = auto
+    branch = auto
+    interactive = auto
+    grep = auto
+    ui = auto

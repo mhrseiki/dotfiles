@@ -1,0 +1,76 @@
+{
+  "terminal": {
+    "font_family": "MesloLGS Nerd Font Mono",
+    "font_size": 16.0
+  },
+  "agent_buffer_font_size": 16.0,
+  "agent_ui_font_size": 16.0,
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
+  "icon_theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
+  "buffer_font_family": "MesloLGS Nerd Font Mono",
+  "buffer_font_size": 16.0,
+  "ui_font_family": "MesloLGS Nerd Font Mono",
+  "ui_font_size": 16.0,
+  "vim_mode": true,
+  "confirm_quit": true,
+  "diagnostics_max_severity": "error",
+  "redact_private_values": true,
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+    "selections_menu": false,
+    "agent_review": false
+  },
+  "title_bar": {
+    "show_onboarding_banner": false
+  },
+  "scrollbar": {
+    "diagnostics": "error"
+  },
+  "gutter": {
+    "runnables": false,
+    "breakpoints": false
+  },
+  "project_panel": {
+    "dock": "right",
+    "default_width": 360,
+    "starts_open": false,
+    "show_diagnostics": "errors"
+  },
+  "outline_panel": {
+    "button": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "git_panel": {
+    "dock": "right"
+  },
+  "agent": {
+    "enabled": false
+  },
+  "show_call_status_icon": false,
+  "autosave": "on_focus_change",
+  "tab_bar": {
+    "show_nav_history_buttons": false
+  },
+  "tabs": {
+    "git_status": true,
+    "file_icons": true,
+    "show_close_button": "hidden"
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "disable_ai": true,
+  "auto_update": false
+}
