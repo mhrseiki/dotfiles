@@ -1,6 +1,5 @@
 {
-  "preferred_line_length": 160,
-  "show_wrap_guides": false,
+  "preferred_line_length": 120,
   "terminal": {
     "font_family": "MesloLGS Nerd Font Mono",
     "font_size": 16.0
