@@ -12,6 +12,10 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 if command -v tmux &>/dev/null; then
     if [ -z "$TMUX" ]; then
-        tmux attach -t seiki || tmux new -s seiki -n main
+        if ! tmux has-session -t seiki 2>/dev/null; then
+            tmux new -s seiki -n main
+        else
+            tmux attach -t seiki
+        fi
     fi
 fi
